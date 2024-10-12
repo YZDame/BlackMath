@@ -1,0 +1,17 @@
+\ProvidesPackage{BlackMath}
+\usepackage[version=4]{mhchem}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\graphicspath{ {./images/} }
+\usepackage[fallback]{xeCJK}
+\usepackage{polyglossia}
+\usepackage{fontspec}
+% 重新定义 \subsection* 的格式
+\usepackage{titlesec}
+\titleformat{\subsection}[block]
+  {\centering\normalfont\Large\bfseries} % 格式设置：居中、正常字体、较大字号、粗体
+  {} % 标签
+  {0em} % 标签与标题之间的水平距离
+  {} % 标题前的代码
